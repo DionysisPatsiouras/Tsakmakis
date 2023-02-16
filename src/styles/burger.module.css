@@ -1,0 +1,40 @@
+.burgerMenu {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 90px;
+  z-index: 99999;
+  background-color: white;
+  text-align: center;
+  font-size: 20px;
+  color: #5E5E5E;
+}
+
+.burgerMenu li {
+  line-height: 120px;
+  font-weight: 900;
+  list-style-type: none;
+}
+
+.burgerMenu a {
+  letter-spacing: 4px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.burgerMenu li:hover {
+  cursor: pointer;
+  list-style-type: disc;
+}
+
+.burgerMenu a:hover {
+  color: #FCBB15;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.burger {
+  width: 50px;
+  height: 50px;
+}
+/*# sourceMappingURL=burger.module.css.map */

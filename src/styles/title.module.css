@@ -1,0 +1,80 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 52px 160px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #848484;
+}
+
+.container h2 {
+  font-size: 20px;
+  letter-spacing: 0.23rem;
+}
+
+.container h6 a {
+  font-size: 11px;
+  letter-spacing: 2px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.container h6 {
+  display: block;
+}
+
+.container span {
+  font-size: 38px;
+  position: relative;
+  bottom: -6px;
+  -webkit-animation: arrowMove 1s linear 0s infinite alternate none;
+          animation: arrowMove 1s linear 0s infinite alternate none;
+}
+
+.container h6 a:hover {
+  color: #FCBB15;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+@-webkit-keyframes arrowMove {
+  0% {
+    left: -2px;
+  }
+  50% {
+    left: 5px;
+  }
+  100% {
+    left: -2px;
+  }
+}
+
+@keyframes arrowMove {
+  0% {
+    left: -2px;
+  }
+  50% {
+    left: 5px;
+  }
+  100% {
+    left: -2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 35px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container h6 {
+    display: none;
+  }
+}
+/*# sourceMappingURL=title.module.css.map */

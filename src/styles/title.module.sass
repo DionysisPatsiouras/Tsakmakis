@@ -1,0 +1,49 @@
+.container
+    display: flex
+    align-items: flex-end
+    padding: 52px 160px
+    justify-content: space-between
+    color: #848484
+
+.container h2
+    font-size: 20px
+    letter-spacing: 0.23rem
+
+.container h6 a
+    font-size: 11px
+    letter-spacing: 2px
+    transition: 0.7s
+
+.container h6
+    display: block
+
+.container span
+    font-size: 38px
+    position: relative
+    bottom: -6px
+    animation: arrowMove 1s linear 0s infinite alternate none
+
+.container h6 a:hover
+    color: #FCBB15
+    transition: 0s
+
+@keyframes arrowMove
+    0%
+        left: -2px
+
+    50%
+        left: 5px
+
+    100%
+        left: -2px
+
+@media screen and ( max-width: 768px  )
+
+
+    .container
+        padding: 35px 0
+        justify-content: center
+    
+    .container h6
+        display: none
+        

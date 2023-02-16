@@ -1,0 +1,75 @@
+.container
+    display: flex
+
+.menu
+    width: 30vw
+
+.video
+    width: 70vw
+    height: 100vh
+    overflow: hidden
+
+.video img
+    width: auto
+    height: 100vh
+
+.video video
+    // width: 133vw
+    height: 100vh
+
+.mobileMenu
+    display: none
+
+.burger
+    display: block
+    left: 5vw
+    width: 55px
+    height: 55px
+    position: absolute
+
+.list
+    display: flex
+
+.social2
+    display: none
+
+@media screen and ( max-width: 768px  )
+
+    .container
+        display: flex
+        flex-direction: column
+
+    .mobileMenu
+
+        height: 90px
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+    .video img
+        width: 100vw
+        height: auto
+    .logo
+        width: 174px
+        height: 45px
+        position: absolute
+        right: 5vw
+
+    .video
+        width: 100vw
+        height: auto
+
+    .social2
+        text-align: center
+        margin-top: 25px
+        color: #959595
+        display: block
+
+    .social2 img
+        width: 30px
+        height: 30px
+        padding: 10px 5px
+
+    .video video
+        width: 100vw
+        height: 50vh

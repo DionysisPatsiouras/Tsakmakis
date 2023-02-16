@@ -1,0 +1,43 @@
+.container
+    padding: 0 160px
+    font-size: 20px
+    line-height: 230.81%
+    display: flex
+    justify-content: space-between
+    font-weight: 900
+
+.container li
+    transition: 0.7s
+    padding: 7px 0
+
+.container li:hover
+    cursor: pointer
+    list-style-type: disc
+    color: #FCBB15
+    transition: 0s
+
+.desktopImages img
+    display: block
+    width: 35vw
+    height: auto
+
+@media screen and ( max-width: 992px  )
+
+    .desktopImages img
+        display: block
+
+    .container li
+        font-size: 15px
+        letter-spacing: 2px
+
+@media screen and ( max-width: 768px  )
+
+    .container
+        padding: 0
+        font-size: 15px
+        width: 80vw
+        margin: 0 auto
+        line-height: 300%
+
+    .desktopImages img
+        display: none

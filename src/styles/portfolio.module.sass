@@ -1,0 +1,57 @@
+.container
+    display: flex
+    justify-content: space-between
+    padding: 0 160px
+
+.sample
+    display: flex
+
+.sample p
+    position: absolute
+    padding: 20px 35px
+
+.categories
+    overflow-y: scroll
+    width: 550px
+    height: 60vh
+    cursor: pointer
+
+.categories img:hover
+    transition: 0.1s
+    opacity: 0.2
+
+.categories img
+    padding: 0 10px 10px 0
+    transition: 0.7s
+    width: 251px
+    // height: 165px
+
+.preview img
+    width: 35vw
+    height: auto
+
+.preview h5
+    letter-spacing: 0
+    font-size: 15px
+
+.preview
+    display: block
+
+@media screen and ( max-width: 768px  )
+
+    .preview
+        display: none
+
+    .categories
+        width: 550px
+        overflow-y: unset
+        display: flex
+        flex-direction: row
+        align-items: center
+        height: auto
+        justify-content: center
+        flex-wrap: wrap
+
+    .container
+        padding: 0
+        justify-content: center

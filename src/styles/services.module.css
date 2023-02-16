@@ -1,0 +1,56 @@
+.container {
+  padding: 0 160px;
+  font-size: 20px;
+  line-height: 230.81%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 900;
+}
+
+.container li {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  padding: 7px 0;
+}
+
+.container li:hover {
+  cursor: pointer;
+  list-style-type: disc;
+  color: #FCBB15;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.desktopImages img {
+  display: block;
+  width: 35vw;
+  height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  .desktopImages img {
+    display: block;
+  }
+  .container li {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0;
+    font-size: 15px;
+    width: 80vw;
+    margin: 0 auto;
+    line-height: 300%;
+  }
+  .desktopImages img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=services.module.css.map */
